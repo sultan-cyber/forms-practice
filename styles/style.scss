@@ -1,0 +1,52 @@
+@import "./global";
+@import "./variables";
+
+.white{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+.blue{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    a{
+        color: white;
+    }
+
+}
+.title{
+  text-align: center;  
+  line-height: 4;
+}
+
+.container{
+    margin: 10% 20% ;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 2;
+  }
+  input[type=submit]{
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+  
