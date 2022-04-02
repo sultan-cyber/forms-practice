@@ -10,8 +10,8 @@
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
-
 }
+
 .blue{
     background-color: blue;
     color: white;
@@ -50,3 +50,9 @@ input {
     text-transform: uppercase;
 }
   
+
+@media screen and (max-width:768px){
+    ul{
+        flex-direction: column;
+    }
+}
