@@ -16,6 +16,14 @@ ul {
           justify-content: space-between;
 }
 
+.end-note a {
+  padding-left: 25px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  margin-left: 5%;
+}
+
 .white {
   background-color: white;
   border: 1px solid black;
@@ -25,6 +33,22 @@ ul {
   text-decoration: none;
   display: inline-block;
   border-radius: 3px;
+}
+
+.get-started {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  margin-top: 5%;
+}
+
+.get-started a {
+  color: white;
 }
 
 .blue {
@@ -69,6 +93,70 @@ input[type=submit] {
   text-transform: uppercase;
 }
 
+.bodee {
+  margin: 3% 3%;
+}
+
+.bodee .head-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bodee .head-top a {
+  padding-left: 20px;
+  color: gray;
+}
+
+.bodee .hamburger {
+  display: none;
+}
+
+.bodee h1 {
+  font-size: 70px;
+}
+
+.bodee p {
+  font-size: 35px;
+  color: gray;
+}
+
+.first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-section .intro-text {
+  margin: 8% 2% 0 2%;
+}
+
+.second-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4%;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+}
+
+.section img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
 @media screen and (max-width: 600px) {
   ul {
     -webkit-box-orient: vertical;
@@ -78,6 +166,23 @@ input[type=submit] {
   }
   ul li {
     margin-bottom: 5%;
+  }
+  .bodee {
+    margin: 2%;
+  }
+  .bodee h1 {
+    margin: 10%;
+    font-size: 60px;
+  }
+  .bodee p {
+    font-size: 45px;
+  }
+  .head-top ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 5%;
   }
 }
 /*# sourceMappingURL=style.css.map */

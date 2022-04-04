@@ -12,6 +12,21 @@
     border-radius: 3px;
 }
 
+.get-started{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 5%;
+    a{
+        color: white;
+    }
+}
+
 .blue{
     background-color: blue;
     color: white;
@@ -49,6 +64,53 @@ input {
     color: white;
     text-transform: uppercase;
 }
+.bodee{
+    margin: 3% 3%;
+    .head-top{
+        display: flex;
+        justify-content: space-between;
+        a{
+            padding-left: 20px;
+            color:gray;
+        }  
+    }
+
+.hamburger{
+    display:none
+}
+ 
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 35px;
+    color: gray;
+
+}
+
+}
+.first-section{
+    display: flex;
+    .intro-text{
+        margin: 8% 2% 0 2% ;
+    }
+}
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.section{
+    display: flex;
+    margin-top: 4%;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5%;
+    }
+}
+
+
   
 
 @media screen and (max-width:600px){
@@ -58,4 +120,22 @@ input {
         margin-bottom: 5%;
     }
     }
+    .bodee{
+        margin: 2%;
+
+        h1{
+         margin: 10%;
+        font-size: 60px;
+        }
+        
+        p{
+         font-size: 45px;
+        }
+    }
+    .head-top ul{
+        flex-direction: row;
+        margin-left: 5%;
+    }
+     
 }
+
