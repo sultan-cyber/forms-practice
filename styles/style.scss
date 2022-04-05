@@ -65,14 +65,15 @@ input {
     text-transform: uppercase;
 }
 .bodee{
-    margin: 3% 3%;
     .head-top{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 2vh 5vw;
         a{
             padding-left: 20px;
             color:gray;
-        }  
+        }
     }
 
 .hamburger{
@@ -80,10 +81,12 @@ input {
 }
  
 h1{
-    font-size: 70px;
+    font-size: 50px;
+    font-weight: 500;
 }
 p{
-    font-size: 35px;
+    font-size: 22px;
+    font-weight: 400;
     color: gray;
 
 }
@@ -91,24 +94,33 @@ p{
 }
 .first-section{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vw;
     .intro-text{
         margin: 8% 2% 0 2% ;
     }
 }
 .second-section{
     display: flex;
-    justify-content: space-between;
-    margin-top: 4%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+
+    img{
+        padding: 10px;
+    }
 }
 .section{
     display: flex;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
     img{
         height: 100%;
-        width: 100%;
-        border-radius: 1%;
+        border-radius: 15%;
+        padding: 10px;
     }
 }
 
@@ -116,22 +128,22 @@ p{
     background-color: white;
     color: white;
     border: 2px solid white;
-    padding: 10px 20px;
+    padding: 0px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     a{
-        margin-left: 40%;
+        align-items: center;
     }
     
 }
 .text-box p{
     text-align:center;
-    padding: 10% 20%;
+    padding: 2% 20%;
     color: black;
 }
 .fourth{
-    margin-top: 4%;
+    margin-top: 15px;
     display: flex;
     height: 100%;
     width: 100%;
@@ -139,6 +151,9 @@ p{
     .image{
         height: 100%;
         width: 100%;
+    }
+    .height{
+        height: 300px;
     }
 }
 
