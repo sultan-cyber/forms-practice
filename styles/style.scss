@@ -132,6 +132,14 @@ p{
 }
 .fourth{
     margin-top: 4%;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    .image{
+        height: 100%;
+        width: 100%;
+    }
 }
 
 

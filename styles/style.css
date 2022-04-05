@@ -201,6 +201,17 @@ input[type=submit] {
 
 .fourth {
   margin-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: justify;
+}
+
+.fourth .image {
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
