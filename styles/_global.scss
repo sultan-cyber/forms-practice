@@ -28,7 +28,10 @@ ul{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    div{
+        padding: 0 10% 0 0;
+    }
     .lorem{
         width: 60%;
     }
